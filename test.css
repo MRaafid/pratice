@@ -1,0 +1,30 @@
+h1 
+    {
+      color:whitesmoke; 
+      background-color:blueviolet;
+      text-align: center;
+    }
+    h3 
+    {
+      color:whitesmoke; 
+      background-color: rgba(220, 20, 60, 0.7);
+    }
+    .wb 
+    {
+      background-image: url(https://tinyurl.com/ytdxjmf5);
+      background-size: contain;
+    }
+    .op 
+    {
+      background-image: url(https://tinyurl.com/3ukcx4n4);
+    }
+    a
+    {
+      color: darkblue;
+      font-size: xx-small;
+      text-decoration: none;
+    }
+    #space
+    {
+      padding: 30px;
+    }
