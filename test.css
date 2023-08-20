@@ -1,3 +1,4 @@
+
 h1 
     {
       color:whitesmoke; 
@@ -8,6 +9,7 @@ h1
     {
       color:whitesmoke; 
       background-color: rgba(220, 20, 60, 0.7);
+      width: 170px;
     }
     .wb 
     {
@@ -26,5 +28,6 @@ h1
     }
     #space
     {
-      padding: 30px;
+      padding-left: 30px;
+      padding-bottom: 5px;
     }
