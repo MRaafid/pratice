@@ -6,3 +6,16 @@ th, td
 {
     padding: 10px;
 }
+label
+{
+    margin-right: 10px;
+}
+button
+{
+    margin: 2px;
+}
+#box
+{
+    font-size: 0.7em;
+    border: 1px solid black;
+}
