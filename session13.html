@@ -30,6 +30,30 @@
        {
         position: relative;
        }
+       label
+       {
+        font-family: sans-serif;
+        margin-right: 10px;
+       }
+       progress
+       {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        width: 450px;
+        overflow: hidden;
+        background-color: aqua;
+        border-radius: 10px;
+       }
+       progress[value]::-webkit-progress-bar
+       {
+        background-color: aqua;
+       }
+       progress[value]::-webkit-progress-value
+       {
+        background-image: linear-gradient(33deg, #9b8acc 21.43%, #d9c764 21.43%, #d9c764 50%, #9b8acc 50%, #9b8acc 71.43%, #d9c764 71.43%, #d9c764 100%);
+        background-size: 35.00px 22.73px;
+       }
     </style>
 </head>
 <body>
@@ -59,5 +83,8 @@
         <li>Madagascar</li>
         <li>Cars</li>
     </ol>
+    <br>
+    <label for="progress bar">Course  Progress</label>
+    <progress id="progress bar" max="100" value="47"></progress>
 </body>
 </html>
