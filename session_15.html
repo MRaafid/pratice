@@ -46,21 +46,33 @@
         /* Grid */
         .grid_p
         {
-            display: grid;
-            grid-template-rows: 3rem 3rem 3rem 3rem; /* this indiactes the number of rows that is the number of times 3rem is reapeated*/
+            display: grid;                            
+            gap: 1rem 2rem;                            /* repeat will output  8rem 4-times */
+            grid-template-rows: repeat(4, 8rem); /* this indiactes the number of rows that is the number of times 3rem is reapeated*/
             grid-template-columns: 1fr 1fr 1fr;      /*1fr will divide the units equally in this case into 3 parts*/
+            border: black solid 2px;
         }
         .grid_c1
         {
             background-color: chartreuse;
+            grid-column-start: 1;
+            grid-column-end: 3;
         }
         .grid_c2
         {
             background-color: blueviolet;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 4;
         }
         .grid_c3
         {
             background-color: aquamarine;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 5;
         }
         .grid_c4
         {
@@ -73,6 +85,10 @@
         .grid_c6
         {
             background-color: deeppink;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
         }
     </style>
 </head>
