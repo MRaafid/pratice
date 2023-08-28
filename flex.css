@@ -1,0 +1,298 @@
+
+/* Inline Flex */
+.fp1
+    {
+            display: inline-flex;
+    }
+.fc1_1
+    {
+        background: black;
+        height: 64px;
+        width: 64px;
+    }
+.fc1_2
+    {
+        background: blue;
+        height: 64px;
+        width: 64px;
+    }
+.fc1_3
+    {
+        background: red;
+        height: 64px;
+        width: 64px;
+    }
+.fc1_4
+    {
+        background: green;
+        height: 64px;
+        width: 64px;
+    }
+.fc1_5
+    {
+        background: gold;
+        height: 64px;
+        width: 64px;
+    }
+.fp2
+    {
+            display: inline-flex;
+    }
+.fc2_1
+    {
+        background: black;
+        height: 64px;
+        width: 64px;
+    }
+.fc2_2
+    {
+        background: blue;
+        height: 64px;
+        width: 64px;
+    }
+.fc2_3
+    {
+        background: red;
+        height: 64px;
+        width: 64px;
+    }
+.fc2_4
+    {
+        background: green;
+        height: 64px;
+        width: 64px;
+    }
+.fc2_5
+    {
+        background: gold;
+        height: 64px;
+        width: 64px;
+    }
+
+/* justify content */
+/* flex start */
+.fp3
+    {
+            display: flex;
+            justify-content: flex-start;
+    }
+.fc3_1
+    {
+        background: gray;
+        height: 64px;
+        width: 64px;
+    }
+.fc3_2
+    {
+        background: blue;
+        height: 64px;
+        width: 64px;
+    }
+.fc3_3
+    {
+        background: red;
+        height: 64px;
+        width: 64px;
+    }
+.fc3_4
+    {
+        background: green;
+        height: 64px;
+        width: 64px;
+    }
+.fc3_5
+    {
+        background: gold;
+        height: 64px;
+        width: 64px;
+    }
+/* flex end */
+.fc4
+    {
+            display: flex;
+            justify-content: flex-end;
+    }
+.fc4_1
+    {
+        background: gray;
+        height: 64px;
+        width: 64px;
+    }
+.fc4_2
+    {
+        background: blue;
+        height: 64px;
+        width: 64px;
+    }
+.fc4_3
+    {
+        background: red;
+        height: 64px;
+        width: 64px;
+    }
+.fc4_4
+    {
+        background: green;
+        height: 64px;
+        width: 64px;
+    }
+.fc4_5
+    {
+        background: gold;
+        height: 64px;
+        width: 64px;
+    }
+/*center*/
+.fc5
+    {
+            display: flex;
+            justify-content: center;
+    }
+.fc5_1
+    {
+        background: gray;
+        height: 64px;
+        width: 64px;
+    }
+.fc5_2
+    {
+        background: blue;
+        height: 64px;
+        width: 64px;
+    }
+.fc5_3
+    {
+        background: red;
+        height: 64px;
+        width: 64px;
+    }
+.fc5_4
+    {
+        background: green;
+        height: 64px;
+        width: 64px;
+    }
+.fc5_5
+    {
+        background: gold;
+        height: 64px;
+        width: 64px;
+    }
+/*space-between*/
+.fc6
+    {
+            display: flex;
+            justify-content: space-between;
+    }
+.fc6_1
+    {
+        background: gray;
+        height: 64px;
+        width: 64px;
+    }
+.fc6_2
+    {
+        background: blue;
+        height: 64px;
+        width: 64px;
+    }
+.fc6_3
+    {
+        background: red;
+        height: 64px;
+        width: 64px;
+    }
+.fc6_4
+    {
+        background: green;
+        height: 64px;
+        width: 64px;
+    }
+.fc6_5
+    {
+        background: gold;
+        height: 64px;
+        width: 64px;
+    }
+/*space-around*/
+.fc7
+    {
+            display: flex;
+            justify-content: space-around;
+    }
+.fc7_1
+    {
+        background: gray;
+        height: 64px;
+        width: 64px;
+    }
+.fc7_2
+    {
+        background: blue;
+        height: 64px;
+        width: 64px;
+    }
+.fc7_3
+    {
+        background: red;
+        height: 64px;
+        width: 64px;
+    }
+.fc7_4
+    {
+        background: green;
+        height: 64px;
+        width: 64px;
+    }
+.fc7_5
+    {
+        background: gold;
+        height: 64px;
+        width: 64px;
+    }
+/*space-evenly*/
+.fc8
+    {
+            display: flex;
+            justify-content: space-evenly;
+    }
+.fc8_1
+    {
+        background: gray;
+        height: 64px;
+        width: 64px;
+    }
+.fc8_2
+    {
+        background: blue;
+        height: 64px;
+        width: 64px;
+    }
+.fc8_3
+    {
+        background: red;
+        height: 64px;
+        width: 64px;
+    }
+.fc8_4
+    {
+        background: green;
+        height: 64px;
+        width: 64px;
+    }
+.fc8_5
+    {
+        background: gold;
+        height: 64px;
+        width: 64px;
+    }
+.f1
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+.f2
+    {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
