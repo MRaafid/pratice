@@ -1,0 +1,30 @@
+.tile {
+    height: 100%;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .tile:hover {
+    cursor: pointer;
+  }
+  
+  .tile img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    transition: all 0.4s; 
+  }
+  
+  .tile img:hover {
+    transform: scale(1.2)
+  }
+  
+  .tile-text {
+    position: absolute;
+    z-index: 1;
+    bottom: 1rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
