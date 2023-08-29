@@ -21,7 +21,7 @@ div
     {
         div
             {
-                
+                position: static;
             }
     }
 @media all and (min-width:541px) and (min-width:720px)
