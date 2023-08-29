@@ -9,9 +9,13 @@
        {
         color: red;
        }
+       html
+       {
+            --color: saddlebrown; 
+       }
        ol > li:nth-child(2n+3)
        {
-        color: saddlebrown;
+        color: var(--color);
        }
        ol>li:last-child
        {
@@ -19,12 +23,14 @@
        }
        ol::before
        {
-        content: url(https://url.vgirish.net/LzMkJorXfT);
-        display: inline-block;
-        margin-right: 10px;
-        position: relative;
-        width: 20px;
-        height: auto;
+            content: "";
+            background-image: url('https://url.vgirish.net/LzMkJorXfT');
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: block;
+            height: 300px; 
+            margin-right: 10px;
+            margin-bottom: 10px;
        }
        h1
        {
@@ -54,6 +60,55 @@
         background-image: linear-gradient(33deg, #9b8acc 21.43%, #d9c764 21.43%, #d9c764 50%, #9b8acc 50%, #9b8acc 71.43%, #d9c764 71.43%, #d9c764 100%);
         background-size: 35.00px 22.73px;
        }
+       .an
+       {
+        height: 150px;
+        width: 150px;
+        position: relative;
+        overflow: hidden;
+       }
+       .ac1
+       {
+            background-color: #97FFF4;
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            animation-name: move;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: 0s;
+            animation-timing-function: ease-in-out;
+       }
+       @keyframes move 
+       {
+            0% 
+            {
+                top: 100px;
+                left: 100px;
+                background-color: #279EFF;
+            }
+            25% 
+            {
+                top: 0%;
+                left: 0%;
+                background-color:#1450A3 ;
+            }
+            50%
+            {
+                left: 100px;
+                top: 0%;
+                background-color: #191D88;
+            }
+            75%
+            {
+                left: 0%;
+                top: 100px;
+                background-color: #0C356A;
+            }
+        }
     </style>
 </head>
 <body>
@@ -86,5 +141,9 @@
     <br>
     <label for="progress bar">Course  Progress</label>
     <progress id="progress bar" max="100" value="47"></progress>
+    <br>
+    <div class="an">
+        <div class="ac1"></div>
+    </div>
 </body>
 </html>

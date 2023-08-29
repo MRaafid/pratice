@@ -1,0 +1,42 @@
+
+div
+    {
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+.m1
+    {
+        background-color: palegreen;
+    }
+.m2
+    {
+        background-color: plum;
+    }
+.m3
+    {
+       background-color: palegoldenrod; 
+    }
+@media all and (max-width:540px) 
+    {
+        div
+            {
+                
+            }
+    }
+@media all and (min-width:541px) and (min-width:720px)
+    {
+        .m2
+            {
+                float: left;
+                width: 35%
+            }
+    }
+    @media all and (min-width:721px)
+    {
+        .m3
+            {
+                float: left;
+                width: 35%
+            }
+    }
