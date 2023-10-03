@@ -1,0 +1,23 @@
+const b = new Date();
+console.log(b.getDate());
+console.log(b.getDay());
+console.log(b.getMonth());
+console.log(b.getFullYear());
+console.log(b.getHours());
+console.log(b.getMinutes());
+console.log(b.getSeconds());
+console.log(b.getMilliseconds());
+console.log(b.getTimezoneOffset());
+console.log(b.toTimeString());
+console.log(b.toDateString());
+console.log(b.toUTCString());
+console.log();
+console.log(b.getUTCDate());
+console.log(b.getUTCDay());
+console.log(b.getUTCMonth());
+console.log(b.getUTCFullYear());
+console.log(b.getUTCHours());
+console.log(b.getUTCMinutes());
+console.log(b.getUTCSeconds());
+console.log(b.getUTCMilliseconds());
+console.log(b.now())
