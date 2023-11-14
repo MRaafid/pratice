@@ -26,3 +26,64 @@ allEmployees.addEventListener('contextmenu', function (evt) {
 });
 
 allEmployees.addEventListener('click', () => removeInfoPanel());
+
+// Drag and Drop
+employeeCards.forEach((el) => 
+  {
+    el.addEventListener('dragstart', function (evt) 
+      {
+        removeInfoPanel();
+        const getId = evt.target.getAttribute('data-id');
+        evt.dataTransfer.setData('text/plain', getId);
+      });
+  });
+
+// Taskforce Events
+taskForce.addEventListener('drop', function (evt) 
+  {
+    evt.preventDefault();
+    const empId = evt.dataTransfer.getData('text/plain');
+    evt.currentTarget.append(document.querySelector(`div[data-id='${empId}']`));
+    evt.currentTarget.classList.remove('highlight-drop');
+  });
+
+taskForce.addEventListener('dragover', function (evt) 
+  {
+    evt.preventDefault();
+  });
+
+taskForce.addEventListener('dragenter', function (evt) 
+  {
+    evt.preventDefault();
+    evt.currentTarget.classList.add('highlight-drop');
+  });
+
+taskForce.addEventListener('dragleave', function (evt) 
+  {
+    evt.currentTarget.classList.remove('highlight-drop');
+  });
+
+allEmployees.addEventListener('drop', function (evt) 
+  {
+    evt.preventDefault();
+    const empId = evt.dataTransfer.getData('text/plain');
+    evt.currentTarget.append(document.querySelector(`div[data-id='${empId}']`));
+    evt.currentTarget.classList.remove('highlight-drop');
+  });
+
+// All Employees Events
+allEmployees.addEventListener('dragover', function (evt) 
+  {
+    evt.preventDefault();
+  });
+
+allEmployees.addEventListener('dragenter', function (evt) 
+  {
+    evt.preventDefault();
+    evt.currentTarget.classList.add('highlight-drop');
+  });
+
+allEmployees.addEventListener('dragleave', function (evt) 
+  {
+    evt.currentTarget.classList.remove('highlight-drop');
+  });
